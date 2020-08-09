@@ -13,13 +13,13 @@ def ranno():
 def noleft():
     print("A total of", range(all_nos), " numbers have not been called out. \n These are: ", all_nos)
 def nosnotleft():
-    print("A total of ", range(used_nos), " have been called out. /n These are: " used_nos)
+    print("A total of ", range(used_nos), " have been called out. /n These are: ", used_nos)
 inp = input("What do you want to do ?")
-if inp = "Next Number":
+if inp == "Next Number":
     ranno()
-elif inp = "Numbers not called yet":
+elif inp == "Numbers not called yet":
     nosnotleft()
-elif inp="Numbers already called yet":
+elif inp=="Numbers already called yet":
     noleft()
 
 
