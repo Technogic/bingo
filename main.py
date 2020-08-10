@@ -23,7 +23,7 @@ for i in range(10):
         for i in range(inp2):
             print(ranno())
             i += 1
-    elif inp == "Numbers not called yet":
+    elif inp == "Numbers already called ":
         print(nosnotleft())
     elif inp == "Quit":
         break
