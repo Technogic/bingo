@@ -3,7 +3,7 @@ import math
 all_nos = list()
 for i in range(1, 101):
     all_nos.append(i)
-print(all_nos)
+#print(all_nos)
 used_nos = list()
 def ranno():
     a = ra.randrange(1,101)
