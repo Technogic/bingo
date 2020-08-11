@@ -12,9 +12,12 @@ def ranno():
     else:
         pass
     used_nos.append(a)
+    all_nos.remove(a)
     print("The next number is: ",a)
 def nosnotleft():
     print("The numbers that have been called out are: ", used_nos)
+def noleft():
+    print(all_nos)
 for i in range(10):
     inp = input("What do you want to do ? ")
     if inp == "Next Number":
@@ -23,15 +26,12 @@ for i in range(10):
         for i in range(inp2):
             print(ranno())
             i += 1
-    elif inp == "Numbers already called ":
+    elif inp == "Numbers already called":
         print(nosnotleft())
+    elif inp == "Numbers not called yet":
+        print(noleft())
     elif inp == "Quit":
         break
     else:
         print("Invalid Command")
     
-    
-
-
-
-
